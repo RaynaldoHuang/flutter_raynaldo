@@ -1,0 +1,3 @@
+1. Versioning adalah proses untuk mengatur versi dari source code program.
+2. Git adalah salah satu bentuk sistem versioning atau Version Control System (VCS) yang digunakan para developer untuk melakukan kolaborasi dalam mengembangkan software.
+3. Pada saat melakukan kolaborasi secara tim, tidak bisa hanya bekerja dalam satu branch ada baiknya perlu dibuat beberapa branch agar kolaborasi yang dilakukan dapat berjalan dengan optimal.
