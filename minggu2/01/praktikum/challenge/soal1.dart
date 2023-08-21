@@ -12,8 +12,17 @@ int TotalHarga(List<String> barangBeli) {
   return totalHarga;
 }
 
+double hitungDiskon(int totalHarga, double diskon) {
+  return totalHarga * (1 - diskon);
+}
+
 void main() {
   List<String> barangBeli = ['buku', 'pensil', 'tas'];
   int totalHarga = TotalHarga(barangBeli);
-  print("Total Harga Barang yang Dibeli: $totalHarga rupiah");
+  double diskon = 0.10;
+
+  double totalHargaDiskon = hitungDiskon(totalHarga, diskon);
+
+  print("Total Harga Barang yang Dibeli: Rp.$totalHarga");
+  print("Total Harga Setelah Diskon dan harus dibayar: Rp.$totalHargaDiskon");
 }
