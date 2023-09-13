@@ -1,4 +1,4 @@
-Tugas		: Resume Flutter Layout
+Tugas		: Flutter Layout
 Flutter
 
 3 poin yang saya pelajari pada materi ini:
