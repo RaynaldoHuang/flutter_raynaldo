@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
@@ -19,7 +17,6 @@ class _HomePageState extends State<HomePage> {
   int _editingIndex = -1;
   DateTime _dateTime = DateTime.now();
   Color selectedColor = Colors.black;
-  final _fileselected = FilePicker;
 
   final TextEditingController nameController = TextEditingController();
   final TextEditingController nomorController = TextEditingController();
@@ -34,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         nomor: nomor,
         dateTime: _dateTime,
         color: currentColor,
-        fileName: _fileselected,
+        fileName: '',
       );
 
       setState(() {
