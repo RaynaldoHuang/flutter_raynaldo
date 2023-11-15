@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tugas7_2/bloc/bloc/todo_bloc.dart';
-import 'package:tugas7_2/homepage.dart';
+import 'package:tugas7_2/view/homepage.dart';
 
 void main() {
   runApp(const MyApp());
